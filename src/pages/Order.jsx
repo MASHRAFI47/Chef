@@ -20,7 +20,7 @@ const Order = (props) => {
   const url = "https://chef-norman-meals.onrender.com/meals"
   
 
-  const fetchData = async (url) => {
+  const fetchData = async () => {
     setIsLoading(true);
 
     try {
