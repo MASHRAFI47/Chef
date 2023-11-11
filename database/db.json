@@ -1,0 +1,60 @@
+{
+    "meals": [
+        {
+            "id": 1,
+            "title": "Brown Salad",
+            "image": "../src/images/meal1.png",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$45"
+        },
+        {
+            "id": 2,
+            "title": "Veg Pasta",
+            "image": "../src/images/meal2.png",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$50"
+        },
+        {
+            "id": 3,
+            "image": "../src/images/meal3.png",
+            "title": "Seafood",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$45"
+          },
+          {
+            "id": 4,
+            "image": "../src/images/meal1.png",
+            "title": "Rogetta",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$45"
+          },
+          {
+            "id": 5,
+            "title": "Pizza",
+            "image": "../src/images/meal1.png",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$45"
+        },
+        {
+            "id": 6,
+            "title": "Burger",
+            "image": "../src/images/meal2.png",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$50"
+        },
+        {
+            "id": 7,
+            "image": "../src/images/meal3.png",
+            "title": "Octopus Seafood",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$45"
+          },
+          {
+            "id": 8,
+            "image": "../src/images/meal1.png",
+            "title": "Rogetta",
+            "desc": "Sadipscing justo sit et labore duo eos at justo dolore, dolore dolore et justo sed.",
+            "price": "$45"
+          }
+    ]
+}

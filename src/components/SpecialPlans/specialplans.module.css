@@ -1,0 +1,182 @@
+.specialPlans {
+  padding: 250px 0px;
+  background-color: #ffece1 !important;
+  background: url("../src/images/Background.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.allTexts {
+  text-align: center;
+}
+
+.heading {
+  font-size: 54px;
+}
+
+.para {
+  margin: 20px 150px !important;
+  color: #388470;
+}
+
+.sideImage1 {
+  position: absolute !important;
+  z-index: -1;
+  bottom: 0px;
+}
+
+.img1 {
+  width: 270px !important;
+}
+
+.sideImage2 {
+  position: absolute !important;
+  z-index: -1;
+  right: 0px;
+  top: 0px;
+}
+
+.img2 {
+  width: 270px !important;
+}
+
+.heading {
+  color: #F65A00;
+  font-weight: 700;
+}
+
+.button {
+  background-color: 388470;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: transparent !important;
+  color: #388470 !important;
+}
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .para {
+    margin: 20px 20px !important;
+    color: #388470;
+  }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  .specialPlans {
+    padding: 110px 0px !important;
+  }
+
+  .heading {
+    font-size: 42px;
+  }
+
+  .img1 {
+    width: 100px !important;
+  }
+
+  .img2 {
+    width: 100px !important;
+  }
+
+  .para {
+    margin: auto !important;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+
+  /* CSS */
+  .specialPlans {
+    padding: 110px 0px !important;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .img1 {
+    width: 100px !important;
+  }
+
+  .img2 {
+    width: 100px !important;
+  }
+
+  .para {
+    margin: auto !important;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}

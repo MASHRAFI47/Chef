@@ -1,0 +1,141 @@
+.productCarousel {
+    background-color: #dc6f17 !important;
+    width: 550px;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    border-radius: 30px 0px 0px 30px;
+}
+.productCarousel img {
+    width: 110px !important;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .productCarousel {
+        background-color: #F65A00 !important;
+        width: 470px;
+        position: absolute;
+        right: 0;
+        margin-top: 20px;
+        border-radius: 30px 0px 0px 30px;
+    }
+    .productCarousel img {
+        width: 90px !important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .productCarousel {
+        background-color: #F65A00 !important;
+        width: 350px;
+        position: absolute;
+        right: 0;
+        margin-top: 20px;
+        border-radius: 30px 0px 0px 30px;
+    }
+    .productCarousel h6 {
+        font-size: 14px;
+    }
+    .productCarousel img {
+        width: 80px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .productCarousel {
+        background-color: #F65A00 !important;
+        position: inherit !important;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 400px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    .productCarousel h6 {
+        font-size: 14px;
+        margin-left: 0px !important;
+    }
+    .productCarousel img {
+        width: 100px !important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .productCarousel {
+        background-color: #dc6f17 !important;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+        border-radius: 0px !important;
+        padding: 10px 0px;
+    }
+    .productCarousel h6 {
+        font-size: 14px;
+        margin-left: 0px !important;
+    }
+    
+    .productCarousel img {
+        width: 100px !important;
+        margin-left: 25px !important;
+    }
+
+    
+  }
+  @media (min-width: 280px) and (max-width: 319px) {
+    .productCarousel {
+        display: none;
+    }
+  }

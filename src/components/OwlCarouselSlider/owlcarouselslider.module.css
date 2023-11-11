@@ -1,0 +1,37 @@
+.allTexts {
+    text-align: left !important;
+    margin-top: 150px !important;
+}
+.textSize {
+    font-size: 62px !important;
+    color: #F65A00;
+    font-weight: 700;
+    text-align: left;
+}
+.paraColor{
+    color: #388470 !important;
+    text-align: left !important;
+}
+.buttonColor {
+    background-color: #388470 !important;
+    color: #fff !important;
+    border: none !important;
+    margin-right: 15px;
+    transition: 0.5s;
+    border: 1px solid #388470 !important;
+    text-align: left !important;
+}
+.buttonColor:hover {
+    background-color: transparent !important;
+    color: #388470 !important;
+    border: 1px solid #388470 !important;
+}
+.allTexts {
+    margin-top: 80px;
+}
+.slick-prev {
+    display: none;
+}
+.image img{
+    width: 100% !important;
+}

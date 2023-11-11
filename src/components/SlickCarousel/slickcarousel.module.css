@@ -1,0 +1,170 @@
+.textSize {
+    font-size: 62px !important;
+    color: #F65A00;
+    font-weight: 700;
+}
+
+.allTexts {
+    margin-top: 225px !important;
+}
+
+.paraColor {
+    color: #388470;
+}
+
+.image {
+    margin-top: 100px;
+}
+
+.buttonColor {
+    background-color: #388470 !important;
+    color: #fff !important;
+    margin-right: 15px;
+    transition: 0.5s;
+    border: 1px solid #388470 !important;
+}
+
+.buttonColor:hover {
+    background-color: transparent !important;
+    color: #388470 !important;
+    border: 1px solid #388470 !important;
+}
+
+.buttonColorSecond {
+    background-color: transparent !important;
+    border: 1px solid #388470 !important;
+    color: #388470 !important;
+    transition: 0.5s;
+}
+
+.buttonColorSecond:hover {
+    background-color: #388470 !important;
+    color: #fff !important;
+    margin-right: 15px;
+    border: 1px solid #388470 !important;
+}
+
+.allTexts {
+    margin-top: 80px;
+}
+
+.slick-prev {
+    display: none;
+}
+
+.mealPlansCarouselOrange {
+    width: 400px;
+    height: 800px;
+    background: #dd7017;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    /* CSS */
+    .allTexts {
+        margin-top: 150px !important;
+    }
+    
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* CSS */
+    .allTexts {
+        margin-bottom: 120px;
+        margin-top: 120px !important;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    .allTexts {
+        margin-top: 80px !important;
+    } 
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .allTexts {
+        margin-top: 80px !important;
+    }
+
+    .image {
+        margin-top: 50px !important
+    }
+
+    .textSize {
+        font-weight: 800;
+        font-size: 50px !important;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+    /* CSS */
+    .allTexts {
+        margin-top: 80px !important;
+    }
+
+    .image {
+        margin-top: 50px !important
+    }
+
+    .textSize {
+        font-weight: 800;
+        font-size: 42px !important;
+    }
+    .buttonColor {
+        margin-bottom: 10px;
+    }
+}

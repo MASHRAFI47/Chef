@@ -1,0 +1,1060 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* Css Media Queries  */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+  /* mealPlans Carousel Starts */
+  .mealPlansCarousel .mealPlansCarouselOrange {
+    height: 710px !important;
+    width: 300px !important;
+  }
+
+  /* mealPlans Carousel Ends */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+  /* CSS */
+  .carouselProduct {
+    position: absolute !important;
+  }
+
+  /* mealPlansCarousel Starts */
+  .mealPlansCarousel {
+    padding-bottom: 70px !important;
+  }
+
+  .mealPlansCarouselOrange {
+    background-color: #F65A00;
+    height: 625px !important;
+    width: 300px !important;
+  }
+
+
+
+
+  .productCarousel {
+    background-color: #F65A00 !important;
+    width: 470px !important;
+    position: absolute !important;
+    right: 0 !important;
+    margin-top: 20px !important;
+    border-radius: 30px 0px 0px 30px !important;
+  }
+
+  .productCarousel img {
+    width: 90px !important;
+  }
+
+  /* mealPlansCarousel Ends */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  /* CSS */
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .bannerImageText p {
+    font-size: 14px;
+  }
+
+  .bannermealImage img {
+    width: 300px;
+  }
+
+  .bannerText h1 {
+    font-size: 42px !important;
+  }
+
+  .carouselProduct {
+    width: 370px !important;
+    position: inherit !important;
+  }
+
+  .our-fav .card-body {
+    margin-bottom: 40px;
+  }
+
+  /* mealPlansCarousel starts */
+  .mealPlansCarouselOrange {
+    height: 600px !important;
+    width: 300px !important;
+  }
+
+  /* mealPlansCarousel ends */
+
+
+
+  .productCarousel {
+    background-color: #F65A00 !important;
+    width: 350px !important;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    border-radius: 30px 0px 0px 30px;
+  }
+
+  .productCarousel h6 {
+    font-size: 14px;
+  }
+
+  .productCarousel img {
+    width: 80px !important;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .carouselProduct {
+    position: static !important;
+    width: auto !important;
+    padding: 0px 10px;
+    height: 150px;
+    margin-top: 50px;
+  }
+
+  /* Our fav start*/
+  .our-fav .card-body {
+    margin-bottom: 40px;
+  }
+
+  .our-fav .our-fav-text h1 {
+    font-weight: 600;
+  }
+
+  /* Our fav end*/
+
+  /* MealPlans Start */
+  .mealPlans .image {
+    margin-bottom: 20px;
+  }
+
+  .mealPlans .mealPlansText h1 {
+    font-size: 50px;
+  }
+
+  .mealPlans .btn-primary {
+    margin-left: 20px;
+  }
+
+  /* MealPlans Ends */
+
+  /* RecipesSection Starts */
+  .recipesSection {
+    padding: 0px !important;
+  }
+
+  .recipesSection .recipesText {
+    text-align: center;
+  }
+
+  .recipesSection .image {
+    text-align: center;
+  }
+
+  .recipesSection .btn-primary {
+    margin-left: 30px;
+  }
+
+  .recipesSection .buttons {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  /* RecipesSection Ends */
+
+  /* Our process Section starts */
+  .ourProcess .card {
+    margin-bottom: 40px;
+  }
+
+  /* Our process Section Ends */
+
+  /* mealplansCarousel Starts */
+  .mealPlansCarousel .mealPlansCarouselOrange {
+    display: none;
+  }
+
+  .slick-next {
+    background-color: #dd7017 !important;
+  }
+
+  /* mealplansCarousel Ends */
+
+
+  .productCarousel {
+    background-color: #F65A00 !important;
+    position: inherit !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px !important;
+    border-radius: 30px 30px 30px 30px !important;
+  }
+
+  .productCarousel h6 {
+    font-size: 14px;
+    margin-left: 0px !important;
+  }
+
+  .productCarousel img {
+    width: 100px !important;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .banner {
+    padding: 140px 0px !important;
+  }
+
+  .bannerImageText p {
+    font-size: 14px;
+  }
+
+  .bannermealImage img {
+    width: 200px;
+  }
+
+  .bannerImageText h6 {
+    font-size: 16px;
+  }
+
+  .bannerImageText p {
+    font-size: 14px;
+  }
+
+  .bannerText h1 {
+    font-size: 42px !important;
+    margin-top: 15px !important;
+  }
+
+  .carouselProduct {
+    width: 370px !important;
+    display: none;
+  }
+
+  .buttons {
+    margin-top: 20px;
+    text-align: center !important;
+  }
+
+  .banner .buttons .btn {
+    margin: 5px !important;
+  }
+
+  /* Our fav start */
+  .our-fav {
+    padding-top: 100px !important;
+  }
+
+  .our-fav .our-fav-text h1 {
+    font-size: 52px !important;
+  }
+
+  .our-fav .card-body {
+    margin-bottom: 35px;
+  }
+
+  /* Our fav end */
+
+  /* mealPlans start */
+  .mealPlans .mealPlansText h1 {
+    margin-bottom: 20px;
+    font-size: 42px !important;
+  }
+
+  .mealPlans .mealPlansText p {
+    margin-bottom: 20px;
+  }
+
+  .mealPlans .btn-primary {
+    margin-bottom: 20px;
+  }
+
+  /* mealPlans End */
+
+  /* RecipesSection Starts */
+  .recipesSection {
+    padding: 0px 0px 80px 0px !important;
+  }
+
+  .recipesSection .recipesText {
+    text-align: center;
+  }
+
+  .recipesSection .image {
+    text-align: center;
+  }
+
+  .recipesSection .btn-primary {
+    margin-left: 30px;
+  }
+
+  /* RecipesSection Ends */
+
+  /* Our process section starts */
+  .ourProcess .card {
+    margin-bottom: 40px;
+  }
+
+  .ourProcess .processTexts h1 {
+    font-weight: 800;
+    font-size: 50px;
+  }
+
+  .ourProcess .processTexts h6 {
+    font-weight: 600;
+  }
+
+  /* Our process section Ends */
+
+  /* MealPlansCarousel Starts */
+  .mealPlansCarousel .mealPlansCarouselOrange {
+    display: none;
+  }
+
+  .slick-next {
+    background-color: #dc6f17;
+  }
+
+  /* MealPlansCarousel Ends */
+
+  /* whatTheySay */
+  .whatTheySay h1 {
+    font-size: 42px !important;
+    text-align: center;
+  }
+
+  .whatTheySay p {
+    margin-bottom: 80px !important;
+  }
+
+  /* whatTheySay */
+
+  .productCarousel {
+    background-color: #dc6f17 !important;
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+    width: 100% !important;
+    border-radius: 0px !important;
+    padding: 10px 0px;
+  }
+
+  .productCarousel h6 {
+    font-size: 14px;
+    margin-left: 0px !important;
+  }
+
+  .productCarousel img {
+    width: 100px !important;
+    margin-left: 25px !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+  /* GALAXY FOLD */
+
+  /* CSS */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .banner {
+    padding: 40px 0px !important;
+  }
+  .bannerImage {
+    padding-top: 100px !important;
+  }
+  .bannerImageText p {
+    font-size: 14px;
+  }
+
+  .bannermealImage img {
+    width: 200px;
+  }
+
+  .bannerImageText h6 {
+    font-size: 16px;
+  }
+
+  .bannerImageText p {
+    font-size: 11px;
+  }
+
+  .bannerText h1 {
+    font-size: 42px !important;
+    margin-top: 15px !important;
+  }
+
+  .carouselProduct {
+    width: 370px !important;
+    display: none;
+  }
+
+  .buttons {
+    margin-top: 20px;
+    text-align: center !important;
+  }
+
+  .banner .buttons .btn {
+    margin: 5px !important;
+  }
+
+  /* Our fav start */
+  .our-fav .our-fav-text h1 {
+    font-size: 42px !important;
+  }
+
+  .our-fav .card-body {
+    margin-bottom: 35px;
+  }
+
+  /* Our fav end */
+
+  /* MealPlans start */
+  .mealPlans .btn-primary {
+    margin-bottom: 20px;
+  }
+
+  /* MealPlans Ends */
+
+  /* recipesSection starts */
+  .recipesSection {
+    padding: 0px !important;
+  }
+
+  /* recipesSection ends */
+
+  /* ourProcess Section starts */
+  .ourProcess h1 {
+    font-size: 40px !important;
+  }
+
+  .ourProcess h6 {
+    font-size: 12px;
+  }
+
+  .ourProcess .card {
+    margin-bottom: 40px;
+  }
+
+  /* ourProcess Section Ends */
+
+  /* MealPlansCarousel Starts */
+  .mealPlansCarousel .mealPlansCarouselOrange {
+    display: none;
+  }
+
+  .slick-next {
+    background-color: #dc6f17;
+  }
+
+  /* MealPlansCarousel Ends */
+
+
+  .productCarousel {
+    display: none !important;
+  }
+}
+
+/* Css media queries end */
+
+
+
+
+
+/* Global Css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h6 {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Navbar starts */
+.topBar {
+  padding: 20px 0px;
+}
+
+.menu {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #388470;
+}
+
+.middleMenu {
+  margin-top: 20px;
+}
+
+.nav-menu {
+  margin-left: 15px;
+}
+
+.nav-menu a {
+  color: #388470;
+}
+
+nav {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar,
+.navbar-default {
+  background-image: linear-gradient(to bottom, #ffece1 0, #ffece1 100%) !important;
+  /* override background image gradient w/ flat color */
+}
+
+/* Banner starts */
+.banner {
+  width: 100%;
+  background: url('src/images/Background.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding: 150px 0px;
+  background-color: #ffece1 !important;
+}
+
+.bannermeal {
+  width: 450px;
+}
+
+.bannermealImage {
+  text-align: center;
+}
+
+.bannerImageText h6 {
+  color: #388470;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+.bannerImageText p {
+  font-family: 'Noto Sans', sans-serif;
+  color: #388470;
+}
+
+.bannerText {
+  color: #F65A00;
+  text-align: center;
+}
+
+.bannerText h1 {
+  font-size: 62px;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 45px;
+  font-weight: 600;
+}
+
+.banner .buttons .btn {
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+.banner .buttons .start-btn {
+  background-color: #388470;
+}
+
+.banner .buttons .start-btn:hover {
+  background-color: transparent;
+  color: #388470;
+}
+
+.banner .buttons .learn-btn {
+  background-color: transparent;
+  color: #388470;
+}
+
+.banner .buttons .learn-btn:hover {
+  background-color: #388470;
+  color: #fff;
+}
+
+.carouselProduct {
+  background-color: #dc6f17;
+  border-radius: 25px;
+  /* display: flex; */
+  position: absolute;
+  right: -20px;
+  width: 570px;
+  height: 150px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-top: 50px;
+}
+
+.owl-carousel .owl-item {
+  text-align: center;
+}
+
+/* .owl-carousel .owl-item img {
+  width: 90px !important;
+} */
+
+.owl-carousel .owl-item p {
+  font-size: 12px;
+  padding: 0px 5px;
+  color: #fff;
+}
+
+/* Navbar Ends */
+
+/* Our fav Starts */
+.our-fav {
+  padding: 80px 0px;
+  background: #649483;
+}
+
+.our-fav .card {
+  border: none;
+  background-color: transparent !important;
+}
+
+.our-fav .card-title {
+  text-align: center;
+  color: #649483;
+}
+
+.our-fav .card-text {
+  color: #649483;
+}
+
+.our-fav .card-body {
+  background-color: #ffece1;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.our-fav-text {
+  margin-left: 15px;
+  margin-bottom: 60px;
+}
+
+.our-fav .our-fav-text h1 {
+  color: #ffece1;
+  font-size: 62px;
+  font-weight: 600;
+}
+
+.our-fav .our-fav-text h6 {
+  color: #ffece1;
+}
+
+.our-fav .buttons {
+  text-align: center;
+}
+
+.our-fav .btn-primary {
+  border-color: #388470;
+  background-color: #388470;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.our-fav .btn-primary:hover {
+  border-color: #388470;
+  background-color: transparent;
+  color: #388470;
+}
+
+/* Our fav ends  */
+
+/* Meal plans start */
+.mealPlans {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../src/images/mealplansbanner.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #ffece1;
+}
+
+.mealplansImage img {
+  width: 400px;
+}
+
+.mealPlans .mealPlansText h6 {
+  margin-top: 50px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #388470;
+  font-weight: 600;
+}
+
+.mealPlans .mealPlansText h1 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #F65A00;
+  font-weight: 800;
+}
+
+.mealPlans .mealPlansText p {
+  color: #388470;
+}
+
+.mealPlans .image .btn-primary {
+  border-color: #388470;
+  background-color: #388470;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.mealPlans .image .btn-primary:hover {
+  border-color: #388470;
+  background-color: transparent;
+  color: #388470;
+}
+
+/* Meal plans End */
+
+/* Recipes Start */
+.recipesSection {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../src/images/RecipesBanner.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #ffece1 !important;
+}
+
+.recipesSection h1 {
+  color: #F65A00;
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.recipesSection .recipesText h6 {
+  margin-top: 50px;
+  color: #388470;
+  font-weight: 600;
+}
+
+.recipesSection .imageMeal {
+  text-align: center;
+}
+
+.recipesSection .imageMeal img {
+  width: 400px;
+}
+
+.recipesSection .btn-primary {
+  border-color: #388470;
+  background-color: #388470;
+  color: #fff;
+  transition: 0.5s;
+  margin-bottom: 40px;
+}
+
+.recipesSection .btn-primary:hover {
+  border-color: #388470;
+  background-color: transparent;
+  color: #388470;
+}
+
+/* Recipes Ends */
+
+/* ourProcess Section Starts */
+.ourProcess {
+  width: 100%;
+  padding: 110px 0px;
+  background-color: #649483;
+}
+
+.processTexts h1 {
+  color: #ffece1;
+  margin-left: 15px;
+  font-size: 62px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.processTexts h6 {
+  color: #ffece1;
+  margin-left: 15px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+/* ourProcess Section Ends */
+
+/* mealPlansCarousel start */
+.mealPlansCarousel {
+  width: 100%;
+  /* padding: 80px 0px; */
+  /* padding-bottom: 70px; */
+  background-color: #ffece1 !important;
+  /* background: url("images/Design.png"); */
+  /* background-size: auto !important; */
+  /* background-repeat: no-repeat !important; */
+}
+
+.mealPlansCarouselOrange {
+  background-color: #F65A00;
+  border-radius: 10px 0px 0px 10px;
+  height: 800px;
+  width: 500px;
+  position: absolute;
+  right: 0;
+}
+
+/* mealPlansCarousel ends
+
+/* owlCaro Starts */
+/* .owlCaro {
+  padding: 90px 0px 80px 0px;
+  background-color: #ffece1;
+}
+.owlCaro .owl-theme .owl-nav .owl-prev {
+  display: none !important;
+}
+.owlCaro .owl-theme .owl-nav .owl-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0px;
+  right: 100px;
+  background-color: #dc6f17;
+  color: #fff;
+}
+.owlCaro .owl-theme .owl-nav .owl-next:hover {
+  background-color: #dc6f17;
+  color: #fff;
+}
+.owlCaro .owl-theme .owl-nav .owl-next:active {
+  background-color: #dc6f17;
+  color: #fff;
+} */
+/* owlCaro Ends */
+
+
+/* slickCaro Starts */
+.slick-prev {
+  display: none !important;
+}
+
+.slick-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50px;
+  right: 30px;
+  color: #fff;
+  border-radius: 25px !important;
+}
+
+.slick-next:hover {
+  background-color: #dc6f17;
+}
+
+.slick-next:active {
+  background-color: #dc6f17;
+}
+
+/* slickCaro Ends */
+
+/* whatTheySay Starts */
+.whatTheySay {
+  padding: 80px 0px;
+  background-color: #649483;
+}
+
+.whatTheySay h1 {
+  color: #ffece1;
+  font-size: 62px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.whatTheySay .testimonial {
+  text-align: center;
+}
+
+.whatTheySay h6 {
+  color: #ffece1;
+  margin: 20px 0px;
+  font-weight: 600;
+}
+
+.whatTheySay p {
+  color: #ffece1;
+}
+
+/* whatTheySay Starts */
+
+/* specialPlans Start */
+
+/* specialPlans Ends */
+
+
+
+
+/* SHOP page */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 30px;
+  margin: 10px;
+  background-color: #ffece1;
+}
+
+/* Navbar */
+.navbarcompSection .btn-primary {
+  background-color: #dc6f17;
+  border-color: #dc6f17 !important;
+}
+
+.navbarcompSection .btn-primary:hover {
+  background-color: transparent;
+  color: #dc6f17;
+}
+
+
+.warning {
+  height: 40px;
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-color: red;
+  font-size: 1.1rem;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+/* Product Carousel Starts */
+.productCarousel {
+  background-color: #dc6f17 !important;
+  width: 550px;
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.productCarousel img {
+  width: 110px !important;
+}
+
+/* Product Carousel Ends */
+

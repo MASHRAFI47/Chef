@@ -1,0 +1,25 @@
+.menusSection {
+    padding: 150px 0px;
+    background-color: #ffece1;
+}
+.heading {
+    font-family: 'Alumni Sans Inline One', sans-serif !important; 
+    color: #efefef;
+}
+.heading2 {
+    font-family: 'Poppins', sans-serif !important;
+    color:#efefef
+}
+p{
+    color: #efefef;
+}
+.border {
+    padding: 40px;
+    /* background-color: #162047; */
+    background-color: #dc6f17;
+    clip-path: polygon(40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px), 0 40px);
+}
+
+.imageDiv img {
+    width: 450px;
+}

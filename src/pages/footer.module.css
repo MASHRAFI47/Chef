@@ -1,0 +1,230 @@
+.footerSection {
+  padding: 80px 0px;
+  background-color: #388470;
+  position: relative;
+}
+
+.heading {
+  color: #ffece1;
+  font-weight: 600;
+}
+
+.unorderedList {
+  padding: 0px !important;
+}
+
+.listedItems {
+  list-style-type: none;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #ffece1;
+  line-height: 30px;
+
+}
+
+.anchor:hover {
+  color: #fff;
+}
+
+.para {
+  color: #ffece1;
+}
+
+.inputField {
+  background-color: transparent;
+  border: 1px solid #ffece1;
+  border-radius: 5px;
+  color: #efefef;
+  padding: 5px;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #ffece1 !important;
+  color: #388470 !important;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #ffece1;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ffece1;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ffece1;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffece1;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffece1;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #ffece1;
+}
+
+
+.copyrightHeading {
+  color: #ffece1 !important;
+  position: absolute;
+  bottom: 5px;
+}
+
+.listedItemsSocial {
+  list-style-type: none;
+}
+
+.unorderedListSocial {
+  display: flex;
+  position: absolute;
+  right: 60px;
+  bottom: 0px;
+}
+
+.anchorSocial {
+  text-decoration: none;
+  color: #ffece1;
+  margin-right: 20px;
+}
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .unorderedListSocial {
+    position: static !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  .footerSection {
+    position: static !important;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .button {
+    margin: 10px 0px 3px 5px !important
+  }
+
+  .unorderedListSocial {
+    position: static !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyrightHeading {
+    position: static !important;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+
+  /* CSS */
+  .footerSection {
+    position: static !important;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .button {
+    margin: 5px 0px 3px 5px !important
+  }
+
+  .unorderedListSocial {
+    position: static !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyrightHeading {
+    position: static !important;
+    margin-top: 30px;
+  }
+}

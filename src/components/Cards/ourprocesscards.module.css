@@ -1,0 +1,23 @@
+.cardImage {
+    text-align: center;
+    margin: 40px 0px;
+}
+.card {
+    border-radius: 15px !important;
+}
+.cardBody {
+    border-radius: 15px !important;
+    background-color:#ffece1 !important;
+
+}
+.cardTitle {
+  color:#F65A00 !important;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 50px !important;
+}
+.cardText {
+    text-align: center;
+    color: #F65A00;
+    margin-bottom: 50px !important;
+}
