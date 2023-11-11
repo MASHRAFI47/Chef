@@ -19,7 +19,7 @@ const Order = (props) => {
   const [filteredMeals, setFilteredMeals] = useState(allMeals);
 
   const fetchData = async (url) => {
-    setIsLoading(true);
+    //setIsLoading(true);
 
     try {
       const response = await fetch(url);
