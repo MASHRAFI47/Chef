@@ -6,6 +6,7 @@ import Search from '../components/Search';
 import Meals from '../components/Platters/Meals';
 
 
+  const url = "https://chef-norman-meals.onrender.com/meals"
 
 
 // props
@@ -17,10 +18,9 @@ const Order = (props) => {
   const [error, setError] = useState(null);
   const [filteredMeals, setFilteredMeals] = useState(allMeals);
 
-  const url = "https://chef-norman-meals.onrender.com/meals"
   
 
-  const fetchData = async () => {
+  const fetchData = async (url) => {
     setIsLoading(true);
 
     try {
